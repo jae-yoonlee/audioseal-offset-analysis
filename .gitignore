@@ -1,0 +1,10 @@
+computed/
+__pycache__/
+.venv*/
+.env*
+*.wav
+*.flac
+*.pt
+*.pth
+*.ckpt
+*.zip

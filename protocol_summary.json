@@ -1,0 +1,51 @@
+{
+  "scope": "same VCTK corpus, 10 previously unused speakers, 20 utterances, 16 fixed crop offsets",
+  "speakers": [
+    "p257",
+    "p258",
+    "p259",
+    "p260",
+    "p261",
+    "p262",
+    "p263",
+    "p264",
+    "p265",
+    "p266"
+  ],
+  "sample_rate": 16000,
+  "base_crop_samples": 16000,
+  "r": [
+    0,
+    25,
+    56,
+    64,
+    82,
+    106,
+    127,
+    156,
+    172,
+    178,
+    194,
+    220,
+    227,
+    239,
+    290,
+    299
+  ],
+  "K": [
+    1,
+    4,
+    16,
+    64,
+    320
+  ],
+  "phase_rule": "p=0,320/K,...,320-320/K",
+  "file_gate": "selected_q > 0.5",
+  "message_bits": "received-interval mean logit > 0",
+  "q": "fraction of received samples with positive detection output >0.5",
+  "margin": "mean over bits of abs(mean over received time of bit logit)",
+  "selection": "maximum q or margin, tie chooses minimum p",
+  "r0": "one second removed, NOT unedited input",
+  "exploratory": "bit-output analysis, margin gating, attribution formula and conditional search are posthoc",
+  "availability": "selected rows are included; original inference scripts, all candidates, exact source snapshot, preprocessing manifest and checkpoint hashes still require transfer from the research server"
+}

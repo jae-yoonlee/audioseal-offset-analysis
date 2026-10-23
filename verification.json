@@ -1,0 +1,24 @@
+{
+  "checked_selection_rows": 6400,
+  "input_sha256": "8c05a8df0ef37dc60f1c17982bed92161840eb32ee315570f8262a32076c018b",
+  "speakers": [
+    "p257",
+    "p258",
+    "p259",
+    "p260",
+    "p261",
+    "p262",
+    "p263",
+    "p264",
+    "p265",
+    "p266"
+  ],
+  "detected_wrong_r_positive_K1": 0.6500000000000001,
+  "CI95": [
+    0.5900000000000001,
+    0.71
+  ],
+  "bootstrap_seed": 20261019,
+  "bootstrap_replicates": 10000,
+  "model_inference_performed": false
+}
